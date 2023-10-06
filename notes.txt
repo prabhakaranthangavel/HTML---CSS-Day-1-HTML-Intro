@@ -1,0 +1,488 @@
+Contents:
+
+1.What is HTML & Why to use?
+
+2.Basic Tags
+
+3.HTML vs HTML5
+
+4.Elements and Attributes
+
+5.Block Element & Inline Element
+
+6.How To add an Image
+
+7.div vs section vs article
+
+8.div vs span     
+
+9.List Methods  Ordered List   UnOrdered List 
+
+10.How to create a Forms   &   Input Methods
+
+11.How to create a Table
+
+12.Form க்குள் Table ஐ Create செய்வது எப்படி?
+
+*************************************************************************************************************************
+
+1.What is HTML & Why to use? and HTML Introduction
+
+===>HTML stands for Hyper Text Markup Language.
+
+===>It's the standard markup language for creating Web pages.
+    web pageகளை உருவாக்குவதற்காக பயன்படுகிறது.
+
+===>HTML is not a programming language.Because it is a Web paste language rename for markup language HTML describes the structure of a Web page. 
+
+===>HTML consists of a series of elements. 
+    எண்ணற்ற elementsகள் உள்ளன.
+
+===>It is elements tell the browser how to display the content.
+
+===>HTML basic structure:
+
+    <html>
+
+      <head>    ===> used to title name.
+      </head>
+
+      <body>    ===> user defined the content.
+      </body>
+
+    </html>
+
+===>Since give the 6 types for heading tag:
+
+    <h1> </h1> 
+    <h2> </h2> 
+    <h3> </h3> 
+    <h4> </h4> 
+    <h5> </h5> 
+    <h6> </h6>    ===> font or text size incresed/decreased.
+
+*************************************************************************************************************************
+
+2.Basic tages for HTML:
+
+===><p> paragraph tag ===> give the paragraph.paragraph ஐ create செய்ய பயன்படுத்துகிறோம்.
+                      ===> <p>This is paragraph</p>
+
+===><b> bolg tag        ===> some text dark.
+    <strong> strong tag ===> some text more dark. 
+
+===><br> break tag ===> text is line by line.ஒன்றன்பின் ஒன்றாக வருவதற்கு பயன்படுத்துகிறோம்.
+
+===><center> center tag ===> text is center.text ஐ center ஆக வர பயன்படுத்துகிறோம்.
+
+===>anchor tag ===>ஒரு website அல்லது webpage உடைய URL அல்லது link ஐ உள்ளீடாக கொடுத்து அதனை பார்வையிட பயன்படுகிறது.
+               ===><a href="https://instagram.in">Click Here</a>
+
+               ===>அதே page ல் display செய்ய target="_self" என்ற attributes பயன்படுகிறது.
+               ===>புதிய page ல் display செய்ய target="_blank" என்ற attributes பயன்படுகிறது.
+
+and etc.,
+
+*************************************************************************************************************************
+
+3.Diffence between HTML vs HTML 5
+
+===>HTML4 is Old version.
+    HTML 5 is a Latest version.
+
+===>HTML every content input for div tag.
+    Eg: div id="header" div class="" div id="footer"
+    
+    HTML 5 directly put the inputs.
+
+    header
+    article
+    nav bar
+    footer ****In this structure is called SEMANTIC HTML.****
+ 
+===>HTML 5 Advanced & Latest tags
+
+    (1)meta tag ===> user HTML code website in information or describtion is called meta tag. 
+                ===> It includes char type,name,content,port,width,audio,video, and etc.,
+  
+    (2)iframe tag ===> iframe tag plays the videos in body tag.
+
+*************************************************************************************************************************
+
+4.Elements and Attributes
+
+what is element?
+
+===>The HTML element is everything from the start tag to the end tag.
+    ஒரு tag ஆரம்பித்தது முதல் இறுதி வரை உள்ள அனைத்துமே elements என அழைக்கப்படும்.
+    ஒரு tag க்கு உள்ளே இருப்பது அனைத்தும் elements என அழைக்கப்படும்.
+
+  element = tag + content
+
+    <tagname> Content goes here Elements </tagname>
+
+what is attributes?
+
+===>HTML attributes provide additional information about HTML elements.
+    ஒரு tag க்கு உள்ளே இருக்கும் elements க்கு சில additional தேவைகள் இருப்பின் அதை attributes என்போம்.
+
+===>ஒரு tag அல்லது elments ஐ எப்படி எல்லாம் customize பண்ணலாம் என்பதற்கு பயன்படுத்துவது attributes ஆகும்.
+    
+    class, id , style,etc..
+
+    <a href="https://instagram.in" target="_self">Click Here</a>
+
+    target="_self" என்பது attributes ஆகும்.
+
+*************************************************************************************************************************
+
+5.Block Element & Inline Element
+
+what is Block Elements?
+
+===>If there is only one tag, we call it Block Elements
+    ஒரே ஒரு tag மட்டும் இருந்தால் அதனை Block Elements என்று கூறுவோம்.
+
+===>Block Elements Example: div,anchor,h1 tag,p tag.
+
+===>Examples:
+
+    <h1>Hai Iam Block Element</h1>
+    <h1>Hai Iam Block Element</h1>
+    <div>Hai Iam Block Element</div>
+    <p>Hai Iam Block Element</p>
+    <a>Hai Iam Block Element</a>
+    <br>
+
+what is Inline Elements?
+
+===>Inside the block scope another one or more tag used is called inline elements. 
+    ஒரு main tag க்கு உள்ளே உள்ள elements ஐ separate operation செய்ய அதற்கு additional ஆக சில tagகள் தேவைப்படும்.
+    அதனை Inline Elements என்று கூறுவோம்.
+
+    அதாவது ஒரே ஒரு main tag க்குள் ஒன்று அல்லது அதற்கு மேற்பட்ட tag ஐ கொடுத்தால் அதனை Inline Elements என்று கூறுவோம்.
+    
+===>Inline Element Example: bold tag,strong tag,span
+
+===>Examples:
+
+    <b>This is Inline Element</b>
+    <strong>This is Inline Element</strong>
+    <span>This is Inline Element</span>
+  
+     இந்த tag எல்லாம் தனியாக வேலை செய்யாது.
+     இதற்கு ஏதேனும் ஒரு main tag தேவைப்படும்.
+     அப்பொழுதுதான் இந்த tag ஆனது வேலை செய்யும்.
+
+*************************************************************************************************************************
+
+6.How To add an Image:
+
+===> <img src="copy address for image name" alt="related name"> 
+
+*************************************************************************************************************************
+
+7.div vs section vs article
+
+===>div is a block element.
+    div ஆனது block element வகையைச் சேர்ந்தது.
+
+    It is used to since separate text and row modified.
+    Another one usage style concept.
+
+===>section is used to paragraph.
+
+===>article is uesd to content.
+
+Example:
+
+       LEAVE LETTER ===> div tag
+
+       From 
+       To
+       Respected sir ===> since this is section tag(subtitle)
+
+       I am suffering from fever and the reason.It is a content.===>article tag(content)
+
+*************************************************************************************************************************
+
+8.div vs span 
+
+===>div:
+       div is a block element.
+       It is used to since separate text and row modified.
+       Another one usage style concept.
+
+    Example1:
+        <div style="background-color: yellow;">
+          <p> Hai Iam div tag</p>
+        </div>
+    div ஆனது ஒட்டுமொத்த rowயும் எடுத்துக்கொள்ளும்.
+
+
+    Example2:
+
+        <h3>Another one usage style concept.</h3>
+
+        <div>
+          <h1 style="color: red;">Hai Everybody</h1>
+        </div>
+
+        <div>
+         <h3>Welcome To</h3>
+        </div>
+
+        <div>
+         <h5 style="background-color: blue;">CSS World</h5>
+        </div>
+    
+        <div>
+         <h1 style="color: dodgerblue;"> Note this point : div tag = inline CSS </h1>
+        </div>
+
+
+===>span:
+      span is a inline element.
+      As per one row or particular elements working to separately. 
+
+    Example:
+        <div style="background-color: yellow;">
+          <p> This is a <span style="background-color: red;"> Hai Iam span Tag </span></p>
+        </div>
+    அந்த row ல் உள்ள குறிப்பிட்ட element ஐ மட்டும் எடுத்துக்கொள்ளும்.அதற்காகத்தான் கலர் மாற்றி கொடுக்கப்பட்டுள்ளது.
+
+*************************************************************************************************************************
+
+9.List Methods:
+
+===>2 types of List Methods. 
+    (1)Ordered List    (ol) என்று தருவோம்.
+    (2)UnOrdered List  (ul) என்று தருவோம்.
+
+what is Ordered List:
+
+===>உள்ளே உள்ள content ஆனது வரிசையாக வர அதாவது 1 2 3 அல்லது A B C யாக வரும்.
+ 
+===>A B C அல்லது a b c என்று வரவேண்டும் என்றால் ஒரு attribute ஐ கொடுக்க வேண்டும்.
+    attributes: type & list-style-type 
+
+===>Example:
+
+    <ol>                                       <ol type="A">
+       <li>HTML</li>                              <li>HTML</li>
+       <li>CSS</li>                               <li>CSS</li>
+       <li>DOM</li>                               <li>DOM</li>
+       <li>JS</li>                                <li>JS</li>
+    </ol>                                      </ol>
+
+    output:                                    output:
+       1.HTML                                     A.HTML
+       2.CSS                                      B.CSS 
+       3.DOM                                      C.DOM                                                                  
+       4.JS என்று வரும்.                         D.JS என்று வரும்.
+
+
+
+what is UnOrdered List:
+
+===>உள்ளே உள்ள content ஆனது symbol ஆக வரும்.
+
+===>Example:
+
+    <ul>                                       
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>DOM</li>
+       <li>JS</li>
+    </ul>
+
+    output:                                    
+       .HTML                                     
+       .CSS                                      
+       .DOM                                                                                                  
+       .JS என்று வரும்.                         
+
+*************************************************************************************************************************
+
+10.HTML Forms
+
+===>An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+    userடம் சில input களை வாங்குவதற்கு பயன்படுகிறது.
+
+===>The HTML elements for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+===>Examples for some input types:
+
+    Name : <input type="text" placeholder="Enter Your Name"/> 
+            <!-- Type the texts -->
+
+    Age : <input type="number" placeholder="Enter Your Age"/> 
+            <!-- Type the numbers and increased/decreased -->
+
+    Password : <input type="password" placeholder="Enter Your password"/> 
+            <!-- Hide the passwords Eg:Bank account number -->
+
+    Email : <input type="email" placeholder="Enter Your Email Id"/> 
+            <!-- Type the user emailname only (@gmail.com) -->
+
+    Placeholder :<input type="placeholder" placeholder="Enter Your Nick Name"/>
+            <!-- Box kulla automatic aaga varuvatharku  -->
+
+    Date : <input type="date" placeholder="Select the date" />
+            <!-- Choose and Select the date -->
+
+    Month : <input type="month" placeholder="Select the month" />
+            <!-- Choose and Select the month -->
+
+    Time : <input type="time" placeholder="Select the date" />
+            <!-- Choose and Select the time -->
+
+    Color : <input type="color" placeholder="Select the colors" />
+            <!-- Choose and Select the color -->
+
+    Range : <input type="range" placeholder="Enter your skill score" />
+            <!-- Eg:Select the incresed/decresed a human skill power -->
+
+    Image : <input type="image" placeholder="Select the images" />
+            <!-- Choose and Select the image -->
+
+    File Upload : <input type="file" placeholder="Select the file" />
+            <!-- Choose and Select the one file upload -->
+
+    Select : <input type="select" placeholder="Enter Your Favorite Team" />
+            <!-- it is used to drop down key -->
+            <!-- syntax  -->
+            <select>
+                <option>CSK</option>
+                <option>MI</option>
+                <option>RCB</option>
+                <option>GT</option>
+            </select>
+            
+    Radio : <input type="radio">
+            <!-- used to the selecting pointer mark Eg:Martial status selected -->
+            <!-- 2 or more get the input names are equal(related and unique) -->
+            <!-- so the response or output is correct i.e click the one element -->
+
+    Checkbox : <input type="checkbox" />
+            <!-- used to the tick mark Eg:Terms and conditions Agreed -->
+ 
+    URL : <input type="url" placeholder="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden">
+            <!-- Search the url's -->
+
+    Search : <input type="search" placeholder="https://www.instagram.com" /> 
+            <!-- Search the general platforms -->
+
+    Button :<input type="button" />
+
+            Submit Button: <input type="submit" />
+            <!-- All the inputs are finalized -->
+            <!-- A user defined the all local datas are input final submission -->
+            <!-- not given to placeholder types because it is a button -->
+
+            Reset Button: <input type="reset" /> 
+            <!-- clear all the user defined local datas -->
+            <!-- not given to placeholder types because it is a button -->
+
+    Text Area :<input type = "textarea"placeholder="Enter Your Message" />
+                <!-- content or Message Box பெரிதாக வர பயன்படுகிறது.அத்தோடு Scrollinp option ம் உண்டு. -->
+
+===>How to create a Forms: 
+  
+    <h1>Create a Forms</h1>
+    <form style="color: aqua;">
+        Name:<input type="text"   placeholder="Enter Your Name"> <br>
+        Age :<input type="number" placeholder="Enter Your Age">  <br>
+        Mail:<input type="email" placeholder="Enter Your Mail">  <br>
+              <input type="submit">
+              <input type="reset">
+    </form>
+
+*************************************************************************************************************************
+
+11.HTML Table
+
+===>வெறும் Form மட்டும் பயன்படுத்துவதன் மூலம் text ஆனது சரியான முறையில் allign ஆகாது.
+   ஆகையால் Table ஐ பயன்படுத்துகிறோம்.
+
+===>HTML Table க்கு 2 properties உள்ளன.
+    (1)tr=tablerow       (2)td=tablecontent
+
+===>Table க்கு border கொடுக்க வேண்டும்.
+
+===>How to create a Table:
+
+    <h1>Create a Forms</h1>
+    <table style="color: aqua;" border="5">
+     <tr>
+        <td>Front End</td>
+        <td>Back End</td>
+        <td>Database</td>
+     </tr>
+     <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JS</td>
+     </tr>
+     <tr>
+        <td>HTTP</td>
+        <td>POSITION</td>
+        <td>FOR LOOP</td>
+     </tr>
+     <tr>
+        <td>creating buttons,texts and etc</td>
+        <td>styling parts</td>
+        <td>logics</td>
+     </tr>
+    </table>
+
+*************************************************************************************************************************
+
+12.Form க்குள் Table ஐ Create செய்வது எப்படி?
+
+    <h1>Forms and Table</h1>
+
+    <form>
+
+        <table>
+
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter Your Name"></td>
+            </tr>
+
+            <tr>
+                <td>Age</td>
+                <td><input type="number" placeholder="Enter Your Age"></td>
+            </tr>
+
+            <tr>
+                <td>Mail Id</td>
+                <td><input type="email" placeholder="Enter Your Email Id"></td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+
+                <td>
+
+                    <select>
+                        <option>Erode</option>
+                        <option>Covai</option>
+                        <option>Tiruppur</option>
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+*************************************************************************************************************************
